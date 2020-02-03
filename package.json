@@ -1,0 +1,27 @@
+{
+  "name": "pagehit-mysql",
+  "version": "1.0.0",
+  "description": "Page hit counter which saves data to a MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --trace-warnings --inspect=0.0.0.0:9229 ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/pagehit-mysql.git"
+  },
+  "author": "Craig Buckler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigbuckler/pagehit-mysql/issues"
+  },
+  "homepage": "https://github.com/craigbuckler/pagehit-mysql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
